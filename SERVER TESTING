@@ -1,0 +1,42 @@
+Procedure
+1 - Product Code From IT Dept
+2 - Sales Order - IT  server --> sales_ordertable
+3 - Work order release - Store
+4 - Work order approval - Factory incharge/Manager
+5 - Material Collection from Store
+6 - Assembly 1, 2 & 3
+7 - Testing --> CST, EST
+8 - Packing
+9 - Hand over to Store
+
+For Doing CST
+
+1 - Windows+R --> mstsc
+2 - Test server IP Address --> 10.1.73.79 --> Connect
+3 - Password : Byd@uestVesp
+4 - C:\inetpub\logs\logfiles\tstcom
+5 - Click on BIKCST Folder
+6 - Select Grantley_Denlow_103 Folder
+7 - To make configuration file select configuration folder in that select wildcatpass folder
+8 - Copy any one of the cofiguration file
+9 - Rename the copied configuration file
+10 - How to do naming for cofiguration file
+ 
+  A)PC_WO.Cfg  B)PC.Cfg   C)PC_.Cfg
+    
+  PC-->Product Code
+  WO-->WorkOrder
+  
+ 11 - Copy the USB drive folder present in the grantley_denlow_103 folder of the pen drive
+ 
+ Very important
+ --------------
+ 1 - Running Test Service and Test Service B
+     To convert SN_MAC.qry --> SN_MAC.aaa 
+     Service A should be running continuously
+ 2 - To fetch the data from database test service B. should be running continously
+ 3 - Test service A and Test Service B should be running in 10.1.73.79
+ 
+ For CST Process, to go on CST service should be running in 10.1.73.90 server
+ path is desktop-->final-->tst-->SERVICE CST.bat
+ password : Byd@uestVepl%#! techsupport
