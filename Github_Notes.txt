@@ -1,0 +1,33 @@
+git --version
+
+git help config
+
+mkdir test
+
+cd test
+
+git init
+
+git status
+
+git add demo.txt
+
+git commit -m "committing a text file"
+
+git config --global user.username yeskalaivanan
+
+git remote add origin paste address git@github.com:yeskalaivanan/test.git
+
+ssh-keygen (dont enter anything. just give enter)
+
+ssh-add -l -E sha256
+
+ssh-agent -s
+
+ssh -T git@github.com
+
+ssh -T yeskalaivanan@github.com
+
+ssh -vT git@github.com
+
+git push -f origin master
