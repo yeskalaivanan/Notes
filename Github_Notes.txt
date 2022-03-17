@@ -14,6 +14,8 @@ git add demo.txt
 
 git commit -m "committing a text file"
 
+git branch -M main
+
 git config --global user.username yeskalaivanan
 
 git remote add origin paste address git@github.com:yeskalaivanan/test.git
